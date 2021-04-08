@@ -3,6 +3,8 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import styles from "../styles/Home.module.css";
 
+import Link from "next/link";
+
 export default function Home() {
   return (
     <div>
@@ -16,6 +18,9 @@ export default function Home() {
         sapiente delectus neque quam adipisci doloremque tenetur consequuntur
         labore ipsa omnis.
       </p>
+      <Link href='/people'>
+        <a>See People Listing</a>
+      </Link>
       <Footer />
     </div>
   );
