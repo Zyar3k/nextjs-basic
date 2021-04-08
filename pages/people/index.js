@@ -1,3 +1,5 @@
+import styles from "../../styles/People.module.css";
+
 const People = () => {
   return (
     <div>
